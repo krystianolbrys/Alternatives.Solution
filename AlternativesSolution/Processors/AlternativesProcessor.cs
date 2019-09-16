@@ -10,6 +10,9 @@ namespace AlternativesSolution.Processors
         public IReadOnlyList<Alternative> Process(CustomerPreferences customerPreferences, IReadOnlyList<MatrixCase> matrix)
         {
             Validate(customerPreferences, matrix);
+
+            // walidacja karencji dla reguły po Id reguły i userId zapisanego w DB/JSON czy czym tam, modyfikacja jakiegoś w modelu "data" pola "czatów"
+
             var validRules = ValidRules(customerPreferences, matrix);
 
             if (validRules.Count() != 1)
