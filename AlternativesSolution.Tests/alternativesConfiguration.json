@@ -1,0 +1,54 @@
+[
+  {
+    //Matrix
+    "IsYourLaptopFast": false,
+    "IsYourCarTurboCharged": false,
+    //Alternatives
+    "Alternatives": [
+      {
+        "Type": 2,
+        "Content": "Do you wanna buy fast laptop? - 1"
+      },
+      {
+        "Type": 2,
+        "Content": "Do you wanna boost your car? - 2"
+      }
+    ]
+  },
+  {
+    //Matrix
+    "IsYourLaptopFast": true,
+    "IsYourCarTurboCharged": false,
+    //Alternatives
+    "Alternatives": [
+      {
+        "Type": 1,
+        "Content": "Do you wanna boost your car? - 3"
+      }
+    ]
+  },
+  {
+    //Matrix
+    "IsYourLaptopFast": false,
+    "IsYourCarTurboCharged": true,
+    //Alternatives
+    "Alternatives": [
+      {
+        "Type": 2,
+        "Content": "Do you wanna buy fast laptop? - 4"
+      }
+    ]
+  },
+  {
+    //Matrix
+    "IsYourLaptopFast": true,
+    "IsYourCarTurboCharged": true,
+    //Alternatives
+    "Alternatives": [
+      {
+        "Type": 1,
+        "Content": "Masz wszystko - 5"
+      }
+    ]
+  }
+]
